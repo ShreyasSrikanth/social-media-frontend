@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Management</title>
+    <style>
+        #form-data{
+            margin: auto;
+            width: fit-content;
+        }
+        </style>
+</head>
+<body  style="background-color: pink;">
+    <form id="form-data">
+        <label for="item">Image URL</label>
+        <input type="text" name="url" id="url" class="input-form" required>
+        <label for="desc">Caption</label>
+        <input type="text" name="caption" id="caption" class="input-form" required>
+        
+        <input type="submit" name="submit" id="submit" class="input-form" value="Add Product">
+    </form>
+
+    <ul id="ul"></ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
